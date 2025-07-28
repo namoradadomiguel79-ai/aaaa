@@ -18,3 +18,5 @@
      name: 'Beatriz',
      x: 50,
      y: 40,
+     message: 'Mensagem especial da Beatriz será adicionada aqui...'
+   }
