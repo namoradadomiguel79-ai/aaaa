@@ -7,8 +7,8 @@ export const ConstellationPage: React.FC = () => {
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-blue-950 to-indigo-950 relative overflow-hidden">
       <StarField />
       
-      {/* Elegant title repositioned to avoid star collision */}
-      <div className="absolute top-8 left-8 z-10 text-left max-w-md">
+      {/* Elegant title repositioned to bottom to avoid star collision */}
+      <div className="absolute bottom-8 left-8 z-10 text-left max-w-md">
         <h1 className="text-4xl md:text-5xl font-light text-yellow-400 mb-4" style={{ fontFamily: 'Playfair Display, serif' }}>
           Constelação de Amizade
         </h1>
